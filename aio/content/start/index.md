@@ -116,7 +116,7 @@ This section guides you through editing the HTML, also known as the template.
       <img src="generated/images/guide/start/template-syntax-product-anchor.png" alt="Product name anchor text is product name property">
     </div>
 
-1. Add the product descriptions. On a `<p>` element, use an `*ngIf` directive so that Angular only creates the `<p>` element if the current product has a description.
+1. Add the product description. On a `<p>` element, use an `*ngIf` directive so that Angular only creates the `<p>` element if the current product has a description.
 
     <code-example path="getting-started/src/app/product-list/product-list.component.3.html" header="src/app/product-list/product-list.component.html">
     </code-example>
